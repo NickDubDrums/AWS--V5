@@ -621,6 +621,7 @@ section {
  /*Footer*/
  .footer {
  	text-align: center;
+ 	font-size: 9px;
 	color: #000;
  }
 
