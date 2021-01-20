@@ -210,10 +210,12 @@ section {
 }
 /* About Us GUI*/
 .aboutus-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 60px;
-	background-image: linear-gradient(#000,#0a0a0a);
+	background-image: linear-gradient(#1a1a1a,#1a1a1a);
 	/*background-color: black;*/
+	position: relative;
+	left: 5%;
 }
 
 .aboutus-width{
@@ -250,10 +252,11 @@ section {
 
 /*Merch GUI*/
 .merch-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
-
+	position: relative;
+	left: 5%;
 }
 
 .inner-width{
@@ -328,9 +331,11 @@ section {
 
 /*Streaming*/
 .stream-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
+	position: relative;
+	left: 5%;
 
 }
 
@@ -364,9 +369,11 @@ section {
 
 /*Pictures*/
 .pic-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 110px;
 	background-image: linear-gradient(#000,#0a0a0a);
+	position: relative;
+	left: 5%;
 	}
 
 .pic-width{
@@ -392,9 +399,11 @@ section {
 
 /*Videos*/
 .vid-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
+	position: relative;
+	left: 5%;
 
 }
 
@@ -468,10 +477,11 @@ section {
 
 /*Dates*/
 .dates-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
-
+	position: relative;
+	left: 5%;
 }
 
 .dates-width{
@@ -517,9 +527,11 @@ section {
 
 /*Lyrics*/
 .ly-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
+	position: relative;
+	left: 5%;
 
 }
 
@@ -544,10 +556,11 @@ section {
 }
 /*Tabs*/
 .tabs-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
-
+	position: relative;
+	left: 5%;
 }
 
 .tabs-width{
@@ -571,10 +584,11 @@ section {
 }
 /*Contact*/
 .cont-section {
-	width: 100%;
+	width: 90%;
 	padding: 60px 0;
 	background-image: linear-gradient(#000,#0a0a0a);
-
+	position: relative;
+	left: 5%;
 }
 
 .cont-width{
@@ -698,7 +712,10 @@ section {
 			z-index: 10px;
 			position: relative;
 			}
-	}
+
+			.aboutus-border {
+				margin: 20px auto;
+			}
 
 	@media screen and (max-width: 640px){
 
@@ -789,7 +806,12 @@ section {
 			font-size: 30px;
 			position: relative;
 			top: 530px;
+
 		}
+	.aboutus-border {
+				margin: 20px 20px;
+			}
+
 	}
 	@media screen and (max-width: 400px){
 		.container h1 {
