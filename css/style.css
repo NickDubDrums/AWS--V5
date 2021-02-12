@@ -1045,7 +1045,7 @@ section {
 
 		}
 		.gruppovert {
-			top: 20px;
+			top: 0px;
 		}
 		.stream-links img{
 	position: absolute;
@@ -1072,7 +1072,7 @@ section {
 		}
 
 		.gruppovert {
-			top: 50px;
+			top: 0px;
 		}
 
 		.stream-links {
