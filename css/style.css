@@ -363,13 +363,42 @@ section {
 	margin: 60px auto;
 }
 
-.stream-body {
+.stream-body h2{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	color: #f1f1f1;
 }
 
+.stream-links {
+	width: 100%;
+	position: relative;
+	top: -40px;
+	left: 10%;
+	
+
+}
+
+.stream-links img{
+	position: absolute;
+	width: 100px;
+	top: 30px;
+	
+}
+.apple-logo {
+	position: absolute;
+	left: 25%;
+}
+.amazon-logo{
+	position: absolute;
+	left: 50%;
+
+}
+
+.deezer-logo {
+	position: absolute;
+	left: 75%;
+}
 
 /*Pictures*/
 .pic-section {
@@ -834,6 +863,10 @@ section {
 			.logolap {
 				top: -100px
 			}
+
+			.stream-links {
+				left: 8%;
+			}
 		}
 
 
@@ -910,7 +943,15 @@ section {
 			position: relative;
 			}
 
+			.stream-links {
+				left: 5%;
+			}
 
+			.stream-links img{
+			position: absolute;
+			width: 80px;
+			top: 30px;
+		}
 
 	@media screen and (max-width: 640px){
 
@@ -1006,6 +1047,12 @@ section {
 		.gruppovert {
 			top: 20px;
 		}
+		.stream-links img{
+	position: absolute;
+	width: 60px;
+	top: 30px;
+	
+}
 
 
 	}
@@ -1028,6 +1075,17 @@ section {
 			top: 50px;
 		}
 
+		.stream-links {
+			left: 2%;
+		}
+
+		.stream-links img{
+			position: absolute;
+			width: 50px;
+			top: 30px;
+
+	
+}
 	}
 
 	/*About Us-------------------------------------------------------------------------*/
@@ -1084,6 +1142,7 @@ section {
 		.spoti{
 			width: 250px;
 		}
+
 	}
 	/*Pics--------------------------------------------------------------------------*/
 	@media screen and (max-width:769px){
