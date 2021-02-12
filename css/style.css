@@ -761,6 +761,10 @@ section {
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
+.mail-link {
+	justify-content: center;
+	text-align: center;
+}
 
 .cont-border {
 	width: 180px;
@@ -774,6 +778,33 @@ section {
 	font-family: 'Montserrat', sans-serif;
 	color: #f1f1f1;
 	font-size: 20px;
+}
+.cont-section a{
+	text-align: center;
+	font-size: 25px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	color: #f1f1f1;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cont-section a::after {
+	content: '';
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	width: 0;
+	height: 2px;
+	background-color: #f1f1f1;
+	transition: width .3s;
+}
+.cont-section a:hover:after {
+	width: 100%;
+	transition: width .3s;
 }
  /*Footer*/
  .footer {
